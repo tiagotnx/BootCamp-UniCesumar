@@ -10,7 +10,7 @@
 body {
     width: 100vw;
     height: 100vh;
-    background: linear-gradient(to bottom right,rgb(4, 0, 255), rgba(1,1,106,1));
+    background-color: #007bff;
 }
 
 header {
@@ -72,7 +72,7 @@ main > div > form > button {
     height: 48px;
     width: 100%;
     padding-left: 8px;
-    background: rgba(4,0,255,1);
+    background: #007bff;
     background-size: 200%;
     margin-bottom: 32px;
     color: white;
@@ -89,6 +89,11 @@ main > div > form > button:hover {
     letter-spacing: 1px;
 }
 
+main > div > form > button:disabled {
+    background: #acacac;
+    cursor: not-allowed;
+}
+
 main > div > form > span {
     height: 2px;
     width: 100%;
@@ -97,16 +102,19 @@ main > div > form > span {
     transition: .3s ease-in-out;
   }
 
-  main > div > form > a {
+ main > div > form > a {
     font-size: 1.1rem;
     color: black;
     text-decoration: none;
   }
 
-  main > div > form > a:hover {
+ main > div > form > a:hover {
       color: red;
   }
   
+ .error {
+      background-color: red;
+    }
 
 .flex {
     display: flex;
