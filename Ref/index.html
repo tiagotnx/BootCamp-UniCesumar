@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
     <title>Document</title>
 </head>
 <body>
@@ -16,33 +17,33 @@
                 </h1>
                 <form action="" class="flex">
                     <label for="">Sobrenome do autor</label>
-                    <input type="text" required>
+                    <input type="text" id="sobrenome" required>
 
                     <label for="">Nome</label>
-                    <input type="text" required>
+                    <input type="text" id="nome" required>
 
                     <label for="">Título do livro</label>
-                    <input type="text" required>
+                    <input type="text" id="titulo" required>
 
                     <label for="">Edição</label>
-                    <input type="number" required>
+                    <input type="number" id="edicao" required>
 
                     <label for="">Cidade</label>
-                    <input type="text" required>
+                    <input type="text" id="cidade" required>
 
                     <label for="">Editora</label>
-                    <input type="text" required>
+                    <input type="text" id="editora" required>
 
                     <label for="">Ano</label>
-                    <input type="number" required>
+                    <input type="number" id="ano" required>
 
-                    <button>Gerar</button>
+                    <input type="button" value="Gerar" id="botao" onclick="ref()">
                 </form>
             </div>
             <div class="logo center flex">
                 <h1>Faça sua referência.</h1>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam obcaecati nulla molestias soluta tempora repellat hic inventore id! Odio facere amet quaerat adipisci. Dolorem aliquid ad obcaecati, at commodi officiis.
+                <p id="ref">
+                    
                 </p>
             </div>
         

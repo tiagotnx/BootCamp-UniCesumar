@@ -4,7 +4,6 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: poppins;
 }
 
 :root {
@@ -30,11 +29,18 @@ h1 {
     color: var(--branco);
     font-size: 6rem;
     padding: 40px;
+    font-family: poppins;
 }
 
 p {
-    color: var(--branco);
+    color: var(--preto);
     padding: 40px;
+    width: 35vw;
+    height: 20vh;
+    background: var(--branco);
+    border-radius: 15px;
+    font-family: Arial;
+    font-size: 12pt;
 }
 
 .flex {
@@ -51,6 +57,7 @@ p {
     height: 88vh;
     background: var(--branco);
     flex-direction: column;
+    border-radius: 20px 0 0 20px;
 }
 
 .logo {
@@ -58,15 +65,18 @@ p {
     background: var(--azul);
     height: 88vh;
     flex-direction: column;
+    border-radius:  0 20px 20px 0;
 }
 
 .txt {
     color: var(--preto);
     font-size: 2rem;
+    font-family: poppins;
 }
 
 .txt2 {
     color: var(--fonte);
+    font-family: poppins;
 }
 
 form {
@@ -79,9 +89,10 @@ input {
     margin-bottom: 10px;
     border-radius: 5px;
     padding-left: 5px;
+    font-family: poppins;
 }
 
-button {
+#botao {
     background-color: var(--azul);
     color: var(--branco);
     width: 30vw;
@@ -90,10 +101,12 @@ button {
     border-radius: 5px;
     font-size: 1rem;
     border-style: none;
+    font-family: poppins;
 }
 
 label {
     color: var(--fonte);
     padding-left: 10px;
+    font-family: poppins;
 
 }
