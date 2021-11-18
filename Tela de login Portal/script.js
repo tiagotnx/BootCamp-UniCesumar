@@ -1,8 +1,8 @@
 
 const init = () => {  //função chamada quando a janela carregar
-    const validateEmail = (event) => { //validação do e-mail
+  const validateEmail = (event) => { //validação do e-mail
         const input = event.currentTarget;
-        const regex = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+        const regex = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|  (".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
         const emailTest = regex.test(input.value);
 
         if(!emailTest) { //se não passar pela validção o botão será desabilitado 

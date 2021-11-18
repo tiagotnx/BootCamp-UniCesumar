@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&family=Roboto&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+
+:root {
+    --fonte: #abb8c5;
+    --azul: #0507d4;
+    --fundo: #edf0f7;
+    --branco: #fff;
+    --preto: #000;
+}
+
+main {
+    background: var(--fundo);
+    width: 100vw;
+    height: 100vh;
+}
+
+main > div {
+    width: 88vw;
+    height: 88vh;
+}
+
+h1 {
+    color: var(--branco);
+    font-size: 6rem;
+    padding: 40px;
+}
+
+p {
+    color: var(--branco);
+    padding: 40px;
+}
+
+.flex {
+    display: flex;
+}
+
+.center {
+    align-items: center;
+    justify-content: center;
+}
+
+.form {
+    width: 44vw;
+    height: 88vh;
+    background: var(--branco);
+    flex-direction: column;
+}
+
+.logo {
+    width: 44vw;
+    background: var(--azul);
+    height: 88vh;
+    flex-direction: column;
+}
+
+.txt {
+    color: var(--preto);
+    font-size: 2rem;
+}
+
+.txt2 {
+    color: var(--fonte);
+}
+
+form {
+    flex-direction: column;
+}
+
+input {
+    height: 30px;
+    width: 30vw;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding-left: 5px;
+}
+
+button {
+    background-color: var(--azul);
+    color: var(--branco);
+    width: 30vw;
+    height: 30px;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    border-style: none;
+}
+
+label {
+    color: var(--fonte);
+    padding-left: 10px;
+
+}
