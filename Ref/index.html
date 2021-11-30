@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
     <title>Document</title>
 </head>
 <body>
@@ -16,25 +16,25 @@
                     Preencha para gerar sua referência.
                 </h1>
                 <form action="" class="flex">
-                    <label for="">Sobrenome do autor</label>
+                    <label for="sobrenome">Sobrenome do autor</label>
                     <input type="text" id="sobrenome" required>
 
-                    <label for="">Nome</label>
+                    <label for="nome">Nome</label>
                     <input type="text" id="nome" required>
 
-                    <label for="">Título do livro</label>
+                    <label for="titulo">Título do livro</label>
                     <input type="text" id="titulo" required>
 
-                    <label for="">Edição</label>
+                    <label for="edicao">Edição</label>
                     <input type="number" id="edicao" required>
 
-                    <label for="">Cidade</label>
+                    <label for="cidade">Cidade</label>
                     <input type="text" id="cidade" required>
 
-                    <label for="">Editora</label>
+                    <label for="editora">Editora</label>
                     <input type="text" id="editora" required>
 
-                    <label for="">Ano</label>
+                    <label for="ano">Ano</label>
                     <input type="number" id="ano" required>
 
                     <input type="button" value="Gerar" id="botao" onclick="ref()">
